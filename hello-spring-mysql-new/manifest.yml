@@ -1,0 +1,7 @@
+applications:
+- name: hello-spring-mysqlS1_id
+  buildpack: java_buildpack
+  memory: 512M
+  path: hello-spring-mysql.war
+  services:
+  - mysqlS1_id
